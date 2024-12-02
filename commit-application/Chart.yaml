@@ -1,6 +1,6 @@
 apiVersion: v2
 name: commit-application
-description: A Helm chart for Kubernetes
+description: A Helm chart for Kubernetes for a simple nginx service
 
 # A chart can be either an 'application' or a 'library' chart.
 #
