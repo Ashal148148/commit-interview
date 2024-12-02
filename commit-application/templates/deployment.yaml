@@ -36,6 +36,15 @@ spec:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          env:
+          - name: DB_HOST
+            value: {{ .Values.db.host }}
+          - name: DB_NAME
+            value: {{ .Values.db.name }}
+          - name: DB_USER
+            value: {{ .Values.db.user }}
+          - name: DB_PASSWORD
+            value: {{ .Values.db.password }}
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}

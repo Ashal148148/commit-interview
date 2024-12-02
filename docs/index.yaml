@@ -3,12 +3,12 @@ entries:
   commit-application:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-12-02T14:43:27.639730735+02:00"
+    created: "2024-12-02T15:52:05.416757256+02:00"
     description: A Helm chart for Kubernetes for a simple nginx service
-    digest: 6c92585ed2020ddbf343dd5020b9dfdce20aa1cf554f50b7917078022ecd0811
+    digest: 0de29f084a931e566b01ac26decf96a3acfaa64087429cf62f2699544c687b90
     name: commit-application
     type: application
     urls:
-    - https://Ashal148148.github.io/commit-interview/commit-application-0.1.2.tgz
-    version: 0.1.2
-generated: "2024-12-02T14:43:27.639146517+02:00"
+    - https://Ashal148148.github.io/commit-interview/commit-application-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-12-02T15:52:05.415852942+02:00"
