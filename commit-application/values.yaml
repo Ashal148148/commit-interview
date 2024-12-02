@@ -123,7 +123,7 @@ tolerations: []
 affinity: {}
 
 db: 
-  host: database-commit.cpum466qwuz6.eu-north-1.rds.amazonaws.com
-  name: commitdb
-  user: viewer
-  password: 123456
+  host: "database-commit.cpum466qwuz6.eu-north-1.rds.amazonaws.com"
+  name: "commitdb"
+  user: "viewer"
+  password: "123456"
